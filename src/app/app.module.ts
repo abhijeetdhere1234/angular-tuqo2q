@@ -6,11 +6,11 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { EmployeeListComponent } from './employee/employeeList.component';
-
+import { EmployeeTitlePipe } from './employee/employeeTitle.pipe';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent,EmployeeComponent,EmployeeListComponent ],
+  declarations: [ AppComponent, HelloComponent,EmployeeComponent,EmployeeListComponent,EmployeeTitlePipe ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

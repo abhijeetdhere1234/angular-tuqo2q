@@ -20,15 +20,15 @@ export class EmployeeComponent{
   employees : any[];
   constructor(){
   this.employees =[
-  {code:'1', name:'a',annualSalary: 500,gender:'Male',dateofBirth:'5/9/2010'},
-  {code:'2', name:'b',annualSalary: 500,gender:'Female',dateofBirth:'5/9/2010'}
+  {code:'e1', name:'a',annualSalary: 500,gender:'Male',dateofBirth:'05/09/1956'},
+  {code:'e2', name:'b',annualSalary: 500,gender:'Female',dateofBirth:'5/9/2010'}
 ];}
 
 getEmployees() : void{
  this.employees =[
-  {code:'1', name:'a',annualSalary: 500,gender:'Male',dateofBirth:'5/9/2010'},
-  {code:'2', name:'b',annualSalary: 500,gender:'Female',dateofBirth:'5/9/2010'},
-  {code:'3', name:'c',annualSalary: 500,gender:'Male',dateofBirth:'5/9/2000'}
+  {code:'e1', name:'a',annualSalary: 500,gender:'Male',dateofBirth:'5/9/2010'},
+  {code:'e2', name:'b',annualSalary: 500,gender:'Female',dateofBirth:'5/9/2010'},
+  {code:'e3', name:'c',annualSalary: 500,gender:'Male',dateofBirth:'5/9/2000'}
 ];
 }
 
